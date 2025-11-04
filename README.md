@@ -1,4 +1,4 @@
-# Assistant-Guided Mitigation of Teacher Preference Bias in LLM-as-a-Judge
+# [EMNLP 2025]Assistant-Guided Mitigation of Teacher Preference Bias in LLM-as-a-Judge
 
 Code for the paper **Assistant-Guided Mitigation of Teacher Preference Bias in LLM-as-a-Judge**
 
@@ -186,4 +186,18 @@ Due to space limitations, only the OffsetBias test dataset is provided as an exa
 Evaluation win rate of GPT-4 vs others
 ```
 CUDA_VISIBLE_DEVICES=0 python evaluation/evaluate_bias.py --model /path/to/your/proxy_judge_model
+```
+
+### Citation
+If you find AGDe-Judge useful, please cite using this BibTeX:
+```
+@misc{liu2025assistantguidedmitigationteacherpreference,
+      title={Assistant-Guided Mitigation of Teacher Preference Bias in LLM-as-a-Judge}, 
+      author={Zhuo Liu and Moxin Li and Xun Deng and Qifan Wang and Fuli Feng},
+      year={2025},
+      eprint={2505.19176},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.19176}, 
+}
 ```
